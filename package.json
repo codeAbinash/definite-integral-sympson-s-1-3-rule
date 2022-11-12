@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "scss": "^0.2.4"
+  },
+  "scripts": {
+    "scss" : "npx sass --no-source-map --watch scss:css",
+    "scss compile once" : "npx sass --no-source-map scss:css"
+  }
+}

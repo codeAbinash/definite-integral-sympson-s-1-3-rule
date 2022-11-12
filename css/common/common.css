@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.grad {
+  background: linear-gradient(to right, #c59400, #fbeb38, #fcff56);
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color {
+  color: var(--accent);
+}
+
+a {
+  text-decoration: none;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.press {
+  transition: 0.2s transform;
+}
+.press:active {
+  transform: scale(0.9);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent2);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+
+.flex.col {
+  flex-direction: column;
+}
+
+.flex.ju-center {
+  justify-content: center;
+}
+
+.flex.al-center {
+  align-items: center;
+}
+
+i,
+i::before,
+i::after {
+  font-family: "Font Awesome Kit";
+}
